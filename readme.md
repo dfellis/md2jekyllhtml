@@ -1,6 +1,6 @@
 # md2jekyllhtml
 
-[![Build Status](https://secure.travis-ci.org/dfellis/md2jekyllhtml.png)](http://travis-ci.org/dfellis/md2jekyllhtml)
+[![Build Status](https://secure.travis-ci.org/dfellis/md2jekyllhtml.png?branch=master)](http://travis-ci.org/dfellis/md2jekyllhtml)
 
 Converts GitHub-Flavored Markdown into Jekyll-style HTML
 
