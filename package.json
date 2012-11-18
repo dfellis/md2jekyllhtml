@@ -1,0 +1,29 @@
+{
+	"name": "md2jekyllhtml",
+	"description": "Converts GitHub-Flavored Markdown into Jekyll-style HTML",
+	"keywords": ["markdown", "jekyll", "html", "converter"],
+	"homepage": "https://github.com/dfellis/md2jekyllhtml",
+	"author": "David Ellis",
+	"version": "0.1.0",
+	"bugs": "https://github.com/dfellis/md2jekyllhtml/issues",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/dfellis/md2jekyllhtml.git"
+	},
+	"main": "./lib/md2jekyllhtml",
+	"dependencies": {
+		"node-markdown": "0.1.1"
+	},
+	"devDependencies": {
+		"nodeunit": "*",
+		"jscoverage": "*",
+		"complexity-report": "*"
+	},
+	"engines": {
+		"node": ">=0.6"
+	},
+	"scripts": {
+		"prepublish": "./prepublish.sh",
+		"test": "nodeunit ./test/test.js"
+	}
+}
