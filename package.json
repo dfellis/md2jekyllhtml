@@ -4,7 +4,7 @@
 	"keywords": ["markdown", "jekyll", "html", "converter"],
 	"homepage": "https://github.com/dfellis/md2jekyllhtml",
 	"author": "David Ellis",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"bugs": "https://github.com/dfellis/md2jekyllhtml/issues",
 	"repository": {
 		"type": "git",
@@ -16,14 +16,14 @@
 	},
 	"devDependencies": {
 		"nodeunit": "*",
-		"jscoverage": "*",
+		"jscoverage": "0.2.5",
 		"complexity-report": "*"
 	},
 	"engines": {
 		"node": ">=0.6"
 	},
 	"scripts": {
-		"prepublish": "./prepublish.sh",
+		"realpublish": "./prepublish.sh && npm publish",
 		"test": "nodeunit ./test/test.js"
 	}
 }
