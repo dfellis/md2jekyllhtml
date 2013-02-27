@@ -4,14 +4,14 @@
 	"keywords": ["markdown", "jekyll", "html", "converter"],
 	"homepage": "https://github.com/dfellis/md2jekyllhtml",
 	"author": "David Ellis",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"bugs": "https://github.com/dfellis/md2jekyllhtml/issues",
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/dfellis/md2jekyllhtml.git"
 	},
 	"main": "./lib/md2jekyllhtml",
-    "bin": "./bin/md2jekyllhtml",
+    "bin": "./bin/md2jekyllhtml.js",
 	"dependencies": {
 		"node-markdown": "0.1.1"
 	},
